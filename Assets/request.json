@@ -1,0 +1,79 @@
+[
+  {
+    "id":"1",
+    "name":"assento",
+    "url":"https://www.allinsys.com.br/unity/assento.gltf"
+  },
+  {
+    "id":"2",
+    "name":"pernaA",
+    "group":"pernas",
+    "url":"https://www.allinsys.com.br/unity/perna.gltf",
+    "selfReference":"topoPerna",
+    "parentReference":"encaixeA",
+    "effects": {
+      "reflection":1,
+      "blur":1 
+    },
+    "material":{
+      "type":"color" ,
+      "source": "#ff0099",
+      "reflection":"0.5"
+    }
+  },
+  {
+    "id":"3",
+    "name":"lamina",
+    "class":"pernas",
+    "url":"https://www.allinsys.com.br/unity/perna.gltf",
+    "selfReference":"topoPerna",
+    "parentReference":"encaixeB",
+    "position":{
+      "axis":"y",
+      "value":"20"
+    },
+    "material":{
+      "type":"color" ,
+      "source": "#0ef202",
+      "reflection":"0.5"
+    }
+  },
+  {
+    "id":"4",
+    "name":"pernaC",
+    "group":"pernas",
+    "url":"https://www.allinsys.com.br/unity/perna.gltf",
+    "selfReference":"topoPerna",
+    "parentReference":"encaixeC",
+    "position":{
+      "axis":"y",
+      "value":"40"
+    },
+    "material":{
+      "type":"color" ,
+      "source": "#001eff",
+      "reflection":"0.5"
+    }
+  },
+  {
+    "id":"5",
+    "name":"pernaD",
+    "group":"pernas",
+    "url":"https://www.allinsys.com.br/unity/perna.gltf",
+    "selfReference":"topoPerna",
+    "parentReference":"encaixeD",
+    "material":{
+      "type":"color" ,
+      "source": "#ff1100",
+      "reflection":"0.5"
+    },
+    "size": [
+      {
+        "axis":"y",
+        "value":"2",
+        "variable":"h"
+      }
+    ]
+  }
+]
+
